@@ -5,18 +5,20 @@ from todos import decimalencoder
 import boto3
 dynamodb = boto3.resource('dynamodb')
 
+
 ## aaaaa jjjjjjjjj
+
 def get(event, context):
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
-    # fetch todo from the database
+    # fetch todo from the database hecho...
     result = table.get_item(
         Key={
             'id': event['pathParameters']['id']
         }
     )
 
-    # create a response
+    # create a response crearfffffff
     response = {
         "statusCode": 200,
         "body": json.dumps(result['Item'],

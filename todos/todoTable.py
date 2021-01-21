@@ -34,7 +34,7 @@ class todoTable(object):
             }
         )
 
-        # Wait until the table exists.
+        # Wait until the table exists. ffff
         table.meta.client.get_waiter(
             'table_exists').wait(TableName=self.tableName)
         if (table.table_status != 'ACTIVE'):
