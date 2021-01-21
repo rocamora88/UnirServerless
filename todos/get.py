@@ -5,7 +5,7 @@ from todos import decimalencoder
 import boto3
 dynamodb = boto3.resource('dynamodb')
 
-
+## aaaaa
 def get(event, context):
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
