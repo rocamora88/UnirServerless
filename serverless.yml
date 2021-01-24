@@ -96,7 +96,6 @@ jobs:
       uses: serverless/github-action@dev
       echo ${{ secrets.AWS_ACCESS_KEY_ID }}
       echo ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      run: serverless deploy -s dev
       with:
         args: deploy
       env:
