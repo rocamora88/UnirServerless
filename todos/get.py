@@ -6,7 +6,7 @@ import boto3
 dynamodb = boto3.resource('dynamodb')
 
 
-## borrar stage new-feature-one
+## primera carga en develop
 def get(event, context):
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
