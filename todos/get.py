@@ -6,7 +6,7 @@ import boto3
 dynamodb = boto3.resource('dynamodb')
 
 
-##ddddddddd
+##Con tabla eliminada
 
 ## primera carga en develop
 def get(event, context):
