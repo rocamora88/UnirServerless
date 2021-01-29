@@ -1,6 +1,6 @@
 org: rocamora88
-app: todo-list-serverless
-service: serverless-rest-api-with-dynamodb
+app: list-serless
+service: ser-rest-dydb
 
 frameworkVersion: ">=1.1.0"
 
