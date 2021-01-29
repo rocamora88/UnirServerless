@@ -6,6 +6,8 @@ import boto3
 dynamodb = boto3.resource('dynamodb')
 
 
+##ddddddddd
+
 ## primera carga en develop
 def get(event, context):
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
