@@ -10,6 +10,7 @@ dynamodb = boto3.resource('dynamodb')
 
 ## kkkkkkkkkk
 ## oooooooooooooo
+## aaaaaaaaaaaaaaa
 
 def get(event, context):
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
