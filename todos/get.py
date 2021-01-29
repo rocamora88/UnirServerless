@@ -7,7 +7,7 @@ dynamodb = boto3.resource('dynamodb')
 
 
 ## aaaaa jjjjjjjjj
-
+## ssssssssss
 
 
 def get(event, context):
